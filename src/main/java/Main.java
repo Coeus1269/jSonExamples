@@ -9,6 +9,8 @@ public class Main
     {
     public static void main(String[] args)
         {
+        // this is a simple project to test and demonstrate class to Gson and Gson back to class
+
         System.out.println("Hello");
         Address AddyFun = new Address();
 
