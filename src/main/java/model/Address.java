@@ -14,6 +14,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.PROPERTY)
 public class Address
 	{
+	private int Address_ID =0;
+	private int CityStateZip_ID = 0;
 	private String street;
 	private CityStateZip cityStateZip = new CityStateZip();
 
@@ -30,9 +32,9 @@ public class Address
 		}
 
 	public String toString()
-		{ return getStreet() + ", "+ cityStateZip.getCityName_str()+
-				", " + cityStateZip.getState_str() +
-				", "+ cityStateZip.getZipCode_str();
+		{ return getStreet() + ", "+ getCity()+
+				", " + getState() +
+				", "+ getZipCode();
 		}
 
 	/* -------------------------------- Getters & Setters  -------------------------------- */
