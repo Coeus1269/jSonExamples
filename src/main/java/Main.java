@@ -10,7 +10,10 @@ public class Main
     {
     public static void main(String[] args)
         {
-        // this is a simple project to test and demonstrate class to Gson and Gson back to class
+        // this is a simple project to test and demonstrate
+        //  class to Gson and Gson back to class
+        // Jaxb to XML and back to class
+        // and Jackson to jSon and back to class
 
         try
             {
